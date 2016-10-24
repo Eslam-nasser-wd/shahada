@@ -1,0 +1,82 @@
+// General
+* 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+*:before, *:after 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	
+html, body
+	height: 100%
+	width: 100%
+	overflow-x: hidden
+
+body
+	background: #EEE
+	font-size: 14px
+	direction: rtl
+	font-family: 'Cairo', sans-serif
+	
+
+.cf:after,.cf:before
+	content: ''
+	display: table
+.cf:after
+	clear: both
+
+
+[type="radio"]:not(:checked), [type="radio"]:checked
+	left: auto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.notice-label
+	position: absolute
+	width: 400px
+	height: 300px
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -250%)
+	padding: 10px 20px
+	background: #e74c3c
+	color: #FFF
+	border-radius: 3px
+	padding-bottom: 20px
+	transition: 0.3s
+	text-align: center
+	font-size: 22px
+	padding-top: 55px
+	opacity: 0
+	&.open
+		transform: translate(-50%, -50%)	
+		opacity: 1
+	i
+		display: block
+		font-size: 5em
+		margin-bottom: 20px
+#inputError,#formNotSaved
+	background: #e74c3c
+#formSaved
+	background: #2ecc71
+.help-block.form-error
+	color: #e74c3c
+	position: absolute
+	right: 10px
+	bottom: 0
