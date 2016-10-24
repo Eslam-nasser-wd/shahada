@@ -8,14 +8,14 @@
           <h1>تقديم طلب شهادة</h1>
           <form class="col s12" id="myform">
             <div class="row">
-              <div class="input-field col s6">
+              <div class="input-field col m6 s12">
                 <input id="first_name" type="text" 
                     data-validation="required"
                     data-validation-error-msg="برجاء ادخال الإسم"
                 >
                 <label for="first_name">الإسم</label>
               </div>
-              <div class="input-field col s5 left">
+              <div class="input-field col m5 s12 left">
                 <select>
                   <option value="" disabled selected>أختر المحافظة</option>
                   <option>محافظة 1</option>
@@ -32,13 +32,13 @@
                 <label>أختر المحافظة</label>
               </div>
 
-              <div class="input-field col s6">
+              <div class="input-field col m6 s12">
                 <input id="email" type="email" 
                     data-validation="email" 
                     data-validation-error-msg="يرجي إدخال الإيميل">
                 <label for="email">البريد الإلكتروني</label>
               </div>
-              <div class="input-field col s5 left">
+              <div class="input-field col m5 s12 left">
                 <input id="phone_number" type="text" 
                     onkeyup="numbersOnly(this, 1)"
                     data-validation="number"
@@ -47,7 +47,7 @@
                 <label for="phone_number">رقم الهاتف</label>
                 <span class="notice"></span>
               </div>
-              <div class="input-field col s8">
+              <div class="input-field col m8 s12">
                 <input id="id_number" type="text" 
                     onkeyup="numbersOnly(this, 0)" 
                     data-validation="number"
@@ -56,7 +56,7 @@
                 <label for="order_title">الرقم القومي</label>
               </div>
               <br><br>
-              <div class="input-field col s8">
+              <div class="input-field col m8 s12">
                 <label class="right files-label">الشهادات</label>
                 <div class="file-field">
                   <div class="btn">

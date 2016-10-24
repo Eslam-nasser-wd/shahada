@@ -1,0 +1,113 @@
+// Screen #2
+.cards-warpper, .index-card-warpper
+	max-width: 900px
+	margin: 10px auto
+	.card
+		padding-bottom: 15px
+		margin:
+			top: 0
+			bottom: 10px
+		&:first-of-type
+			margin-top: 80px
+		&.cardMove
+			animation: cardMove 1s ease-in-out
+			animation-fill-mode: forwards
+		*
+			transition: 0.1s
+		.hide-in-inActive
+			height: 0
+			display: block
+			overflow: hidden
+			transition: .2s
+		.show-in-active
+			height: auto
+			// display: inline-block
+			overflow: hidden
+		&.inActive
+			.valign-wrapper
+				height: 65px
+	.card-head
+		border-bottom: 1px solid #EEE
+		display: flex
+		.col
+			margin: auto
+			p:first-of-type
+				margin: 0
+				padding: 
+					top: 10px
+					bottom: 0
+			p:last-of-type
+				margin: 0
+				padding: 
+					top: 5px
+					bottom: 10px
+		.col.left-align
+			padding-top: 5px
+			color: #87764d
+			font-weight: bold
+		.image-thump-warpper
+			display: flex
+			.image
+				width: 90px
+				margin: auto
+				margin-right: 0
+				padding: 10px
+				margin-left: 0
+				img
+					width: 100%
+			.text
+				margin: auto
+				margin-left: 0
+				margin-right: 0
+	.card-body
+		.contact-info
+			margin-top: 10px
+			p
+				margin: 0
+				padding: 5px 0
+			p:first-of-type
+				padding-bottom: 10px
+	.card-footer
+		margin-top: 20px
+		button
+			direction: ltr // To fix the waves effects
+			margin-left: 15px
+		.toggler
+			display: block
+			float: left
+			i
+				position: relative
+				top: 10px
+			&.on
+				.on
+					display: block
+				.off
+					display: none
+			&.off
+				.on
+					display: none
+				.off
+					display: block
+
+	.download-icon
+		position: relative
+		top: 5px
+
+	.person-info
+		p
+			margin: 0
+		.job-title
+			font-size: 13px
+			margin-top: 10px
+	.info-title
+		font-size: 11px
+
+
+
+@keyframes cardMove
+	100%
+		transform: translate(50%) rotate(10deg)
+		opacity: 0
+
+
+
