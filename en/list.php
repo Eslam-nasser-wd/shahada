@@ -23,7 +23,7 @@
 					<p>mail@mail.com</p>
 				</div>
 				<div class="col m3 s6 image-thump-warpper">
-					<div class="image">
+					<div class="image hide-on-small-only">
 						<img src="assets/img/1.png" alt="Image name">
 					</div>
 					<div class="text">
