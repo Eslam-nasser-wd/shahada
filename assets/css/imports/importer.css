@@ -2,37 +2,45 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 @import 'https://fonts.googleapis.com/css?family=Cairo';
 @import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+/* line 2, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 7, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 12, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 html, body {
   height: 100%;
   width: 100%;
   overflow-x: hidden; }
 
+/* line 17, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 body {
   background: #EEE;
   font-size: 14px;
   direction: rtl;
-  font-family: "Cairo", sans-serif; }
+  font-family: 'Cairo', sans-serif; }
 
+/* line 24, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 .cf:after, .cf:before {
-  content: "";
+  content: '';
   display: table; }
 
+/* line 27, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 .cf:after {
   clear: both; }
 
+/* line 31, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 [type="radio"]:not(:checked), [type="radio"]:checked {
   left: auto; }
 
+/* line 50, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 .notice-label {
   position: absolute;
   width: 400px;
@@ -50,42 +58,54 @@ body {
   font-size: 22px;
   padding-top: 55px;
   opacity: 0; }
+  /* line 67, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
   .notice-label.open {
     transform: translate(-50%, -50%);
     opacity: 1; }
+  /* line 70, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
   .notice-label i {
     display: block;
     font-size: 5em;
     margin-bottom: 20px; }
 
+/* line 74, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 #inputError, #formNotSaved {
   background: #e74c3c; }
 
+/* line 76, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 #formSaved {
   background: #2ecc71; }
 
+/* line 78, C:/xampp/htdocs/shahada/assets/css/imports/general/general.sass */
 .help-block.form-error {
   color: #e74c3c;
   position: absolute;
   right: 10px;
   bottom: 0; }
 
+/* line 2, C:/xampp/htdocs/shahada/assets/css/imports/parts/nav.sass */
 nav .brand-logo {
   right: 10px; }
 
+/* line 2, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 .separate-ways {
   max-width: 350px;
   margin: 20px auto;
   padding-top: 30vh; }
+  /* line 6, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   .separate-ways a {
     direction: ltr !important; }
 
+/* line 9, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 .index-card-warpper {
   position: relative; }
+  /* line 11, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   .index-card-warpper .card-head {
     margin-bottom: 40px; }
+  /* line 13, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   .index-card-warpper .progress-warpper {
     margin-top: 15vh; }
+  /* line 15, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   .index-card-warpper .backToBtns2 {
     position: absolute;
     top: 10px;
@@ -94,12 +114,14 @@ nav .brand-logo {
     font-size: 22px;
     cursor: pointer; }
 
+/* line 23, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 #indexView {
   max-width: 850px;
   margin: 20px auto;
   background: #FFF;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.23);
   position: relative; }
+  /* line 29, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   #indexView .backToBtns {
     position: absolute;
     top: 10px;
@@ -107,12 +129,14 @@ nav .brand-logo {
     color: #34495e;
     font-size: 22px;
     cursor: pointer; }
+  /* line 36, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   #indexView h1 {
     text-align: center;
     padding: 20px 0;
     position: relative; }
+    /* line 40, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView h1:after, #indexView h1:before {
-      content: "";
+      content: '';
       position: absolute;
       width: 110px;
       height: 1px;
@@ -120,12 +144,15 @@ nav .brand-logo {
       right: 50%;
       bottom: 0;
       transform: translateX(50%); }
+    /* line 49, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView h1:after {
       bottom: -2px; }
+  /* line 51, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   #indexView .form {
     max-width: 700px;
     margin: auto;
     position: relative; }
+    /* line 57, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form .loader {
       position: absolute;
       top: 0;
@@ -137,135 +164,180 @@ nav .brand-logo {
       text-align: center;
       direction: ltr;
       display: none; }
+      /* line 68, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
       #indexView .form .loader .preloader-wrapper {
         position: absolute;
         left: 46%;
         top: 39%; }
+    /* line 74, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form .radio-btns p {
       margin: 0; }
+    /* line 76, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form .radio-btns .right {
       position: relative;
       top: 0;
       padding-left: 0; }
+    /* line 80, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form .radio-btns .left {
       position: relative;
       top: -10px;
       padding: 0; }
+    /* line 84, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form textarea {
       margin-bottom: 0; }
+    /* line 86, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form .input-field {
       margin-top: 20px;
       position: relative; }
+    /* line 89, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
     #indexView .form .notice {
       color: red; }
+  /* line 91, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   #indexView .files-label {
     top: -20px;
     font-size: 13px; }
 
+/* line 95, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 .submit.left-align.col.s12 {
   direction: ltr; }
+  /* line 97, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
   .submit.left-align.col.s12 i {
     transform: rotate(180deg); }
 
+/* line 99, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 .btn, .btn-large {
   background: #34495e;
   color: #FFF; }
 
+/* line 103, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 .btn:hover, .btn-large:hover {
-  background: #395168;
+  background: #34495e / .9;
   color: #FFF; }
 
+/* line 107, C:/xampp/htdocs/shahada/assets/css/imports/pages/index.sass */
 nav .brand-logo {
   left: auto; }
 
+/* line 2, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
 .cards-warpper, .index-card-warpper {
   max-width: 900px;
   margin: 10px auto; }
+  /* line 5, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .card, .index-card-warpper .card {
     padding-bottom: 15px;
     margin-top: 0;
     margin-bottom: 20px; }
+    /* line 10, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card:first-of-type, .index-card-warpper .card:first-of-type {
       margin-top: 40px; }
+    /* line 12, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card.cardMove, .index-card-warpper .card.cardMove {
       animation: cardMove 1s ease-in-out;
       animation-fill-mode: forwards; }
+    /* line 15, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card *, .index-card-warpper .card * {
       transition: 0.1s; }
+    /* line 17, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card .hide-in-inActive, .index-card-warpper .card .hide-in-inActive {
       height: 0;
       display: block;
       overflow: hidden;
-      transition: 0.2s; }
+      transition: .2s; }
+    /* line 22, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card .show-in-active, .index-card-warpper .card .show-in-active {
       height: auto;
       overflow: hidden; }
+    /* line 27, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card.inActive .valign-wrapper, .index-card-warpper .card.inActive .valign-wrapper {
       height: 65px; }
+  /* line 29, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .card-head, .index-card-warpper .card-head {
     border-bottom: 1px solid #EEE; }
+    /* line 31, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-head .col, .index-card-warpper .card-head .col {
       margin: auto; }
+      /* line 33, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-head .col p:first-of-type, .index-card-warpper .card-head .col p:first-of-type {
         margin: 0;
         padding-top: 10px;
         padding-bottom: 0; }
+      /* line 38, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-head .col p:last-of-type, .index-card-warpper .card-head .col p:last-of-type {
         margin: 0;
         padding-top: 5px;
         padding-bottom: 10px; }
+    /* line 43, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-head .col.left-align, .index-card-warpper .card-head .col.left-align {
       padding-top: 5px;
       color: #87764d;
       font-weight: bold; }
+    /* line 47, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-head .image-thump-warpper, .index-card-warpper .card-head .image-thump-warpper {
       display: flex; }
+      /* line 49, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-head .image-thump-warpper .image, .index-card-warpper .card-head .image-thump-warpper .image {
         width: 90px;
         margin: auto;
         margin-right: 0;
         padding: 10px;
         margin-left: 0; }
+        /* line 55, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
         .cards-warpper .card-head .image-thump-warpper .image img, .index-card-warpper .card-head .image-thump-warpper .image img {
           width: 100%; }
+      /* line 57, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-head .image-thump-warpper .text, .index-card-warpper .card-head .image-thump-warpper .text {
         margin: auto;
         margin-left: 0;
         margin-right: 0; }
+  /* line 62, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .card-body .contact-info, .index-card-warpper .card-body .contact-info {
     margin-top: 10px; }
+    /* line 64, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-body .contact-info p, .index-card-warpper .card-body .contact-info p {
       margin: 0;
       padding: 5px 0; }
+    /* line 67, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-body .contact-info p:first-of-type, .index-card-warpper .card-body .contact-info p:first-of-type {
       padding-bottom: 10px; }
+  /* line 69, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .card-footer, .index-card-warpper .card-footer {
     margin-top: 20px; }
+    /* line 71, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-footer button, .index-card-warpper .card-footer button {
       direction: ltr;
       margin-left: 15px; }
+    /* line 74, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
     .cards-warpper .card-footer .toggler, .index-card-warpper .card-footer .toggler {
       display: block;
       float: left; }
+      /* line 77, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-footer .toggler i, .index-card-warpper .card-footer .toggler i {
         position: relative;
         top: 10px; }
+      /* line 81, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-footer .toggler.on .on, .index-card-warpper .card-footer .toggler.on .on {
         display: block; }
+      /* line 83, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-footer .toggler.on .off, .index-card-warpper .card-footer .toggler.on .off {
         display: none; }
+      /* line 86, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-footer .toggler.off .on, .index-card-warpper .card-footer .toggler.off .on {
         display: none; }
+      /* line 88, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
       .cards-warpper .card-footer .toggler.off .off, .index-card-warpper .card-footer .toggler.off .off {
         display: block; }
+  /* line 91, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .download-icon, .index-card-warpper .download-icon {
     position: relative;
     top: 5px; }
+  /* line 96, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .person-info p, .index-card-warpper .person-info p {
     margin: 0; }
+  /* line 98, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .person-info .job-title, .index-card-warpper .person-info .job-title {
     font-size: 13px;
     margin-top: 10px; }
+  /* line 101, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .cards-warpper .info-title, .index-card-warpper .info-title {
     font-size: 11px; }
 
@@ -273,47 +345,61 @@ nav .brand-logo {
   100% {
     transform: translate(50%) rotate(10deg);
     opacity: 0; } }
+
+/* line 114, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
 .search-input {
   width: 100%; }
+  /* line 116, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .search-input input {
     display: block;
     margin: auto;
     width: 88% !important; }
+  /* line 120, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .search-input i {
     top: 10px; }
+  /* line 122, C:/xampp/htdocs/shahada/assets/css/imports/pages/s2.sass */
   .search-input label {
     margin-right: 5em; }
 
+/* line 2, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 .input-field.col label {
   right: 0.75rem;
   left: auto; }
 
+/* line 7, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 form p {
   text-align: right; }
 
+/* line 9, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 [type="radio"] + label:before, [type="radio"] + label:after {
   right: 0;
   left: auto; }
 
+/* line 12, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 [type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
   padding-right: 35px;
   padding-left: 0; }
 
+/* line 16, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 .row .col {
   float: right; }
 
+/* line 18, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 .file-field .btn, .file-field .btn-large {
   float: right; }
 
+/* line 20, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 .file-field .file-path-wrapper {
   padding-right: 10px;
   padding-left: 0; }
 
+/* line 24, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 .file-path {
   padding-right: 10px; }
 
+/* line 27, C:/xampp/htdocs/shahada/assets/css/imports/general/rtl.sass */
 .select-wrapper span.caret {
   right: auto;
   left: 0; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=importer.css.map */
