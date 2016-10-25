@@ -2,7 +2,6 @@
 <div id="DevAgency">
 	<div class="cards-warpper cf">
       <div class="row">
-
 		<?php for ($i=0; $i < 10; $i++) { ?>
         <div class="col s12 card inActive">
 			<div class="col s12 card-head">

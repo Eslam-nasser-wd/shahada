@@ -1,6 +1,5 @@
 <?php $page_title = "عضو هيئة التدريس" ?>
 <?php include 'assets/header.php' ?>
-
     <!-- Form View -->
     <div id="indexView">
       <div class="form cf">
