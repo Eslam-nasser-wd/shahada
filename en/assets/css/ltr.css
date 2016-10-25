@@ -1,0 +1,18 @@
+body{
+	direction: ltr;
+}
+nav .brand-logo{
+	right: auto;
+	left: 10px;
+}
+.input-field.col label{
+	right: auto;
+	left: auto;
+}
+.select-wrapper span.caret{
+	left: auto;
+	right: 0;
+}
+.row .col{
+	float: left
+}

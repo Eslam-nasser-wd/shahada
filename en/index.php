@@ -15,7 +15,7 @@
                 >
                 <label for="first_name">Name</label>
               </div>
-              <div class="input-field col m5 s12 left">
+              <div class="input-field col m5 s12 right">
                 <select>
                   <option value="" disabled selected>Select City</option>
                   <option>City 1</option>
@@ -38,7 +38,7 @@
                     data-validation-error-msg="Please enter e-mail.">
                 <label for="email">E-mail</label>
               </div>
-              <div class="input-field col m5 s12 left">
+              <div class="input-field col m5 s12 right">
                 <input id="phone_number" type="text" 
                     onkeyup="numbersOnly(this, 1)"
                     data-validation="number"
@@ -47,7 +47,7 @@
                 <label for="phone_number">Phone Number</label>
                 <span class="notice"></span>
               </div>
-              <div class="input-field col m8 s12">
+              <div class="input-field col m8 s12 left">
                 <input id="id_number" type="text" 
                     onkeyup="numbersOnly(this, 0)" 
                     data-validation="number"
@@ -56,7 +56,7 @@
                 <label for="order_title">National Number</label>
               </div>
               <br><br>
-              <div class="input-field col m8 s12">
+              <div class="input-field col m8 s12 left">
                 <label class="right files-label"> Certificates </label>
                 <div class="file-field">
                   <div class="btn">
@@ -70,7 +70,7 @@
               </div>
               <div class="cf"></div>
               <br><br>
-              <div class="submit left-align col s12">
+              <div class="submit right-align col s12">
                 <div id="postData" class="btn waves-effect waves-light">Send
                   <i class="material-icons left">send</i>
                 </div>
