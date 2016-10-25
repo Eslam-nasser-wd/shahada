@@ -2,6 +2,15 @@
 <div id="DevAgency">
 	<div class="cards-warpper cf">
       <div class="row">
+
+	    <form class="col s12 search-input">
+	        <div class="input-field col s12">
+				<i class="material-icons prefix">search</i>
+				<input id="icon_telephone" type="tel" class="validate">
+				<label for="icon_telephone">بحث</label>
+	        </div>
+	    </form>
+
 		<?php for ($i=0; $i < 10; $i++) { ?>
         <div class="col s12 card inActive">
 			<div class="col s12 card-head">
