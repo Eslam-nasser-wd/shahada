@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/output/style.css">
     <script>
       // Filter the numbers [PLESE DON'T MOVE THIS CODE]
-     function numbersOnly(input, spanIndex){
+      function numbersOnly(input, spanIndex){
       var regex = /[^0-9]/gi,
           str   = input.value,
           len   = str.length,
@@ -21,41 +21,32 @@
         input.value = input.value.replace(regex, '');
         if ( regex.test(last) ) {
          // document.getElementsByClassName('notice')[spanIndex].innerHTML = 'برجاء ادخال أرقام فقط, الحرف ('+last+') ممنوع!';
-         document.getElementById('inputError').classList.add('open');
+         // document.getElementById('inputError').classList.add('open');
         }else{
           // document.getElementsByClassName('notice')[spanIndex].innerHTML = '';
-          document.getElementById('inputError').classList.remove('open');
+          // document.getElementById('inputError').classList.remove('open');
         }
       }
     </script>
   </head>
   <body>
 
-    <!-- Dropdown Structure -->
-    <!-- <ul id="dropdown1" class="dropdown-content">
-      <li><a href="index.php">عضو هيئة التدريس</a></li>
-      <li><a href="devAgency.php">وكالة تطوير المعهد</a></li>
-      <li><a href="dean.php">عميد المعهد</a></li>
-      <li><a href="board.php">مجلس المعهد</a></li>
-      <li><a href="deputy.php">نائب المعهد</a></li>
-    </ul>
-    <nav class="cf">
+    <nav>
       <div class="nav-wrapper">
-        <a href="index.php" class="brand-logo right">
-          LOGO
-        </a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li class="username"><a class="dropdown-button" href="#!" data-activates="dropdown1">
-            <i class="material-icons">perm_identity</i>
-            <?php echo $page_title ?>
-          </a></li>
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down">
+          <li><a href="index.php">أضف شهادة</a></li>
+          <li><a href="list.php">قائمة الشهادات</a></li>
+          <li><a href="./en/">English</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.php">أضف شهادة</a></li>
+          <li><a href="list.php">قائمة الشهادات</a></li>
+          <li><a href="./en/">English</a></li>
         </ul>
       </div>
-    </nav> -->
+    </nav>
 
 
-<!-- Errors log for the user -->
-<span id="inputError" class="notice-label z-depth-2">
-  برجاء إدخال أرقام فقط
-  <i class="material-icons">highlight_off</i>
-</span>
+

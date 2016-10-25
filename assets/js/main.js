@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 	// Init the select box
     $('select').material_select();
+    // Init the navbar
+    $(".button-collapse").sideNav();
 
 	// Cards toggler
 	var cardsWarpper = $('.cards-warpper > .row');

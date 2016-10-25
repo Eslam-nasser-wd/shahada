@@ -11,7 +11,24 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="../assets/css/output/style.css">
-	<link rel="stylesheet" href="assets/css/output/style.css">
+	  <!-- <link rel="stylesheet" href="assets/css/output/style.css"> -->
   </head>
   <body id="en">
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="hide-on-med-and-down">
+        <li><a href="index.php">Add</a></li>
+        <li><a href="list.php">List</a></li>
+        <li><a href="../">عربي</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.php">Add</a></li>
+        <li><a href="list.php">List</a></li>
+        <li><a href="../">عربي</a></li>
+      </ul>
+    </div>
+  </nav>
 
