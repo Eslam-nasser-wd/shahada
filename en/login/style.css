@@ -35,3 +35,24 @@ body{
 	margin-top: -15px;
 	padding-right: 0 !important;
 }
+
+.logos-warpper{
+	max-width: 650px;
+	margin: 20px auto;
+	display: flex;
+}
+.single-logo{
+	width: 25%;
+	margin: auto
+}
+.single-logo img{
+	width: 40%;
+	display: block;
+	margin: auto;
+	transition: .4s;
+	filter: grayscale(90%)
+}
+.single-logo:hover img{
+	filter: grayscale(0);
+	cursor: pointer
+}

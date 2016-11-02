@@ -77,7 +77,6 @@
             </div>
           </form>
         </div>
-
         
         <!-- Popups -->
         <span id="formSaved" class="notice-label z-depth-2">
@@ -91,7 +90,14 @@
         </span>
       </div>
     </div><!--/#indexView-->
-
-
+    
+    <div class="logos-warpper">
+      <?php for ($i=0; $i < 4; $i++) { ?>
+        <div class="single-logo">
+          <img src="assets/img/logo.png" alt="LOGO">
+        </div>
+      <?php } ?>
+    </div>
+  
 
 <?php include 'assets/footer.php' ?>

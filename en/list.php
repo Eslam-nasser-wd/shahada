@@ -3,34 +3,41 @@
 	<div class="cards-warpper cf">
       <div class="row">
 
-		<form class="col s12 search-input">
+		<form action="#" class="search-form">
+			<div class="input-field">
+				<a class="waves-effect waves-light btn col s2">
+					<i class="material-icons right">search</i> Search
+				</a>
+				<input type="text" class="col s10" placeholder="Search">
+			</div>
+		</form>
+		
+
+		<!-- Simple search -->
+	    <!-- <form class="col s12 search-input">
 	        <div class="input-field col s12">
 				<i class="material-icons prefix">search</i>
 				<input id="icon_telephone" type="tel" class="validate">
-				<label for="icon_telephone">Search</label>
+				<label for="icon_telephone">بحث</label>
 	        </div>
-	    </form>
+	    </form> -->
 
 		<?php for ($i=0; $i < 10; $i++) { ?>
         <div class="col s12 card inActive">
 			<div class="col s12 card-head">
 				<div class="col m2 s6">
 					<p>Haitham Amin</p>
-					<p class="job-title">Alax</p>
+					<p class="job-title">Alex</p>
 				</div>
 				<div class="col m2 s6">
-					<p class="info-title">National ID</p>
-					<p>1234567890</p>
+					<p class="info-title">Certification name:</p>
+					<p>certification name</p>
 				</div>
 				<div class="col m2 s6">
-					<p class="info-title">Phone Number</p>
-					<p>011111111111</p>
+					<p class="info-title">Certification date:</p>
+					<p>20/10/2016</p>
 				</div>
-				<div class="col m2 s6">
-					<p class="info-title">Email</p>
-					<p>mail@mail.com</p>
-				</div>
-				<div class="col m3 s6 image-thump-warpper">
+				<div class="col m3 s6 right image-thump-warpper">
 					<div class="image hide-on-small-only">
 						<img src="assets/img/1.png" alt="Image name">
 					</div>

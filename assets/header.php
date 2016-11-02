@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>شهادة</title>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" href="assets/img/logo.png">
+    <meta name="msapplication-TileImage" content="assets/img/logo.png">
+    <link rel="icon" href="assets/img/logo.png" sizes="32x32">
+
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,14 +23,10 @@
           str   = input.value,
           len   = str.length,
           last  = str.charAt(len - 1);
-        input.value = input.value.replace(regex, '');
-        if ( regex.test(last) ) {
-         // document.getElementsByClassName('notice')[spanIndex].innerHTML = 'برجاء ادخال أرقام فقط, الحرف ('+last+') ممنوع!';
-         // document.getElementById('inputError').classList.add('open');
-        }else{
-          // document.getElementsByClassName('notice')[spanIndex].innerHTML = '';
-          // document.getElementById('inputError').classList.remove('open');
-        }
+          input.value = input.value.replace(regex, '');
+          if ( regex.test(last) ) {
+          }else{
+          }
       }
     </script>
   </head>

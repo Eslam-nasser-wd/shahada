@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>شهادة</title>
+    <title>Certifications system</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" href="assets/img/logo.png">
+    <meta name="msapplication-TileImage" content="assets/img/logo.png">
+    <link rel="icon" href="assets/img/logo.png" sizes="32x32">
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">

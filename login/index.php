@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>تسجيل الدخول</title>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" href="../assets/img/logo.png">
+    <meta name="msapplication-TileImage" content="../assets/img/logo.png">
+    <link rel="icon" href="../assets/img/logo.png" sizes="32x32">
+
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -43,7 +48,16 @@
           </form>
         </div>
       </div>
-    </div><!--/#indexView-->
+    </div><!--/#login-->
+
+    <div class="logos-warpper login">
+      <?php for ($i=0; $i < 4; $i++) { ?>
+        <div class="single-logo">
+          <img src="../assets/img/logo.png" alt="LOGO">
+        </div>
+      <?php } ?>
+    </div>
+
     <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
   </body>

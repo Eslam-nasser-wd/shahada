@@ -82,6 +82,13 @@
       </div>
     </div><!--/#indexView-->
 
+    <div class="logos-warpper">
+      <?php for ($i=0; $i < 4; $i++) { ?>
+        <div class="single-logo">
+          <img src="assets/img/logo.png" alt="LOGO">
+        </div>
+      <?php } ?>
+    </div>
 
 
 <?php include 'assets/footer.php' ?>
